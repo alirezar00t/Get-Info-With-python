@@ -1,10 +1,9 @@
 #Get Info With Python
 #By AlirezaR00t & Salvator__s
-
+#---------------
 import requests,os
 from colorama import Fore,Back,Style
-
-headers = {'user-agent': 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safar                   >
+#---------------
 os.system("clear")
 print (Fore.RED + """███████████████████████████
 ███████▀▀▀░░░░░░░▀▀▀███████
@@ -20,14 +19,14 @@ print (Fore.RED + """███████████████████�
 ██▄░░░▄▄▄▓░░▀█▀░░▓▄▄▄░░░▄██
 ████▄─┘██▌░░░░░░░▐██└─▄████
 █████░░▐█─┬┬┬┬┬┬┬─█▌░░█████
-████▌░░░▀┬┼┼┼┼┼┼┼┬▀░░░▐████
+████▌░░░▀┬┼ـAR00tـ┼┬▀░░░▐████
 █████▄░░░└┴┴┴┴┴┴┴┘░░░▄█████
 ███████▄░░░░░░░░░░░▄███████
 ██████████▄▄▄▄▄▄▄██████████
 ███████████████████████████""")
 
 username = input(Fore.RED +"enter name: ")
-
+#---------------
 req = requests.get('https://twitter.com/'+username, headers=headers)
 
 if '{"value":false}' in req.text:
@@ -42,9 +41,7 @@ else:
 
     print(Fore.BLUE + "[+] Found : "+i+" +")
 
-
-
-
+#---------------
 
 req = requests.get('https://www.pinterest.com/'+username, headers=headers)
 
@@ -60,9 +57,7 @@ else:
 
     print(Fore.RED + "[x] Not Found : "+i)
 
-
-
-
+#---------------
 
 req = requests.get('https://github.com/'+username, headers=headers)
 
@@ -78,9 +73,7 @@ else:
 
     print(Fore.RED + "[x] Not Found : "+i)
 
-
-
-
+#---------------
 
 req = requests.get('https://www.instagram.com/'+username, headers=headers)
 
@@ -96,9 +89,7 @@ else:
 
     print(Fore.RED + "[x] Not Found : "+i)
 
-
-
-
+#---------------
 
 req = requests.get('https://steamcommunity.com/id/'+username, headers=headers)
 
@@ -114,9 +105,7 @@ else:
 
     print(Fore.RED + "[x] Not Found : "+i)
 
-
-
-
+#---------------
 
 req = requests.get('https://soundcloud.com/'+username, headers=headers)
 
