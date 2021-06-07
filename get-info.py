@@ -4,6 +4,7 @@
 import requests,os
 from colorama import Fore,Back,Style
 #---------------
+headers = {'user-agent': 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36'}
 os.system("clear")
 print (Fore.RED + """███████████████████████████
 ███████▀▀▀░░░░░░░▀▀▀███████
