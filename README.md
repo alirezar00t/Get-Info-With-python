@@ -2,7 +2,11 @@
 Get Info -(Instagram, Facebook, Twitter, YouTube, Google, Spotify,...) With Python(3)
 <p>--------------</p>
 
-````1- cd Get-Info-With-python````
+````git clone https://github.com/alirezar00t/Get-Info-With-python````
 
-<p>2- python3 get-info.py</p>
+````cd Get-Info-With-python````
+
+````python3 get-info.py````
+
+
 <p>My Instagram : @AlirezaR00t </p>
